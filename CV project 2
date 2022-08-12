@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Project 2</title>
+    <link rln="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: aliceblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        .contenar {
+            background-color: rgb(29, 122, 91);
+            width: 800px;
+            margin: 0 auto;
+        }
+        
+        .logo {
+            float: left;
+            width: 150px;
+            border: 1px solid rgb(14, 39, 31);
+            border-radius: 50%;
+        }
+        
+        .head-title {
+            float: left;
+            padding: 35px;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: aqua;
+        }
+        
+        .head-contect {
+            float: right;
+            padding: 30px;
+        }
+        
+        .head-contect a {
+            text-decoration: none;
+        }
+        
+        .head-contect a:hover {
+            color: brown;
+            padding: 2px;
+        }
+        
+        .div-clear {
+            clear: both;
+        }
+        
+        .head-hr {
+            margin: 20px auto;
+            border: 3px solid black;
+            margin-bottom: 10px;
+        }
+        
+        .div-left {
+            width: 30%;
+            float: left;
+            padding: 10px;
+        }
+        
+        .div-right {
+            width: 60%;
+            float: left;
+            padding: 10px;
+        }
+        
+        .hr-same {
+            margin: 0 auto;
+            border: 1px solid black;
+        }
+        
+        .div2-left {
+            width: 30%;
+            margin: 20px 0 0 5px;
+            float: left;
+        }
+        
+        .div2-right {
+            margin: 10px auto;
+            width: 70%;
+            float: right;
+        }
+        
+        .div3-left {
+            width: 30%;
+            margin: 20px auto;
+            float: left;
+            margin: 20px 0 0 5px;
+        }
+        
+        .div3-right {
+            width: 70%;
+            margin: 20px auto;
+            float: right;
+        }
+        
+        .div4-left {
+            width: 30%;
+            float: left;
+            margin: 20px 0 0 5px;
+        }
+        
+        .div4-right {
+            width: 70%;
+            float: right;
+        }
+        
+        .foter-contect {
+            background-color: black;
+            text-align: center;
+            word-spacing: 10px;
+        }
+        
+        .foter-contect a {
+            color: #fff;
+            padding: 10px;
+            text-decoration: none;
+        }
+        
+        .QQ {
+            background-color: black;
+            text-align: center;
+        }
+        
+        .QQ p {
+            color: #fff;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="contenar">
+        <header>
+            <img class="logo" src="298073284_1120743085535615_4781607104763654886_n.jpg">
+            <div class="head-title">
+                <h1>Mahdi Hasan </h1>
+                <h3>(A Programer)</h3>
+            </div>
+            <div class="head-contect">
+                <p><a href="mailto:mahdihasan52145@gmail.com">Email :
+                            mahdihasan52145@gmail.com</a></p>
+                <p><a href="https://www.facebook.com/profile.php?id=100014671969456">Facebook
+                            : Mahdi Hasan</a></p>
+                <p><a href="tel:+8801621194610">Phone : +8801621194610</a></p>
+            </div>
+
+            <div class="div-clear"></div>
+
+            <hr class="head-hr">
+
+        </header>
+        <main>
+
+            <div>
+                <div class="div-left">
+                    <h3>Parsonal information</h3>
+                </div>
+                <div class="div-right">
+                    <p>
+                        Address : 67 Moulvibazar-3200,Sylhet,Bangladesh
+                    </p>
+                    <p>Sex : Male</p>
+                    <p>Nationality : Bangladeshi</p>
+
+                </div>
+
+
+                <div class="div-clear"></div>
+                <hr class="hr-same">
+
+            </div>
+
+            <div>
+                <div class="div2-left">
+                    <h3>Education</h3>
+                </div>
+                <div class="div2-right">
+                    <p>
+                        <h5>Primary School</h5>
+                        <h5>(2010-2015)</h5>
+                        <p>I passed PSC at the age of 11 from my village school.
+                        </p>
+
+                    </p>
+
+                    <p>
+                        <h5>Hige School</h5>
+                        <h5>(2016-2021)</h5>
+                        <P>At that time i was 17 years old and finished hige school. It was a very long journny.
+                        </p>
+                        <h5>college</h5>
+                        <h5>(2022-...)</h5>
+                        <p>
+                            Now i am studying in college. Also learning coding.
+
+                        </p>
+                </div>
+                <div class="div-clear"></div>
+                <hr class="hr-same">
+
+
+            </div>
+            <div>
+                <div class="div3-left">
+                    <h3>Key Skills</h3>
+
+                </div>
+                <div class="div3-right">
+                    <h5>HTML</h5>
+                    <p>
+                        ekono kunu skill nai in sha allah future a hobey
+                    </p>
+                    <h5>CSS</h5>
+                    <p>
+                        In sha allah
+                    </p>
+                </div>
+            </div>
+
+            <div class="div-clear"></div>
+            <hr class="hr-same">
+            <div>
+                <div class="div4-left">
+                    <h3>Work Exceperiens</h3>
+
+                </div>
+
+                <div class="div4-right">
+                    <p>
+                        No Exceperiens
+                    </p>
+
+
+                </div>
+
+            </div>
+            <div class="div-clear"></div>
+            <hr class="hr-same">
+
+
+            <div>
+                <div class="foter-contect">
+                    <p><a href="https://www.facebook.com/profile.php?id=100014671969456" target="">Facebook</a></p>
+                    <p><a href="#">Youtube </a></p>
+                    <p> <a href="#">Website</a></p>
+                </div>
+                <div class="QQ">
+                    <p>CopyRight&copyMahdi Hasan</p>
+                </div>
+
+
+
+
+            </div>
+            <div class="div-clear"></div>
+            <hr class="hr-same">
+
+
+
+
+
+
+
+
+
+        </main>
+        <footer>
+
+
+
+        </footer>
+    </div>
+</body>
+
+</html>
