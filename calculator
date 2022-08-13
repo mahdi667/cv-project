@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Project</title>
+    <link rln="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            margin: 20px auto;
+            width: 350px;
+            text-align: center;
+            font-size: 0;
+        }
+        
+        h1 {
+            color: black;
+        }
+        
+        .card {
+            padding: 10px;
+            font-size: 0;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+        
+        .card:hover {
+            box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+        }
+        
+        .card-head #result {
+            width: 95%;
+            height: 70px;
+            font-weight: bold;
+            font-size: 32px;
+            letter-spacing: 2px;
+            padding: 0 5px;
+            text-align: right;
+        }
+        
+        .card-body {
+            width: 350pxpx;
+            font-size: 0px;
+        }
+        
+        .btm {
+            width: 80px;
+            height: 70px;
+            font-weight: bold;
+            font-size: 25px;
+            background-color: black;
+            color: aliceblue;
+        }
+        
+        .btm:hover {
+            background-color: pink;
+        }
+        
+        .MMM {
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Calculator</h1>
+
+    <div class="card">
+        <div class="card-head">
+            <input type="text" id="result" value="">
+
+        </div>
+        <div class="card-body">
+            <div>
+                <input type="button" class="btm" value="C">
+                <input type="button" class="btm" value="+/-">
+                <input type="button" class="btm" value="%">
+                <input type="button" class="btm MMM" value="/">
+            </div>
+            <div>
+                <input type="button" class="btm" value="7">
+                <input type="button" class="btm" value="8">
+                <input type="button" class="btm" value="9">
+                <input type="button" class="btm MMM" value="x">
+            </div>
+            <div>
+                <input type="button" class="btm" value="4">
+                <input type="button" class="btm" value="5">
+                <input type="button" class="btm" value="6">
+                <input type="button" class="btm MMM" value="-">
+            </div>
+            <div>
+                <input type="button" class="btm" value="1">
+                <input type="button" class="btm" value="2">
+                <input type="button" class="btm" value="3">
+                <input type="button" class="btm MMM" value="+">
+            </div>
+            <div>
+                <input type="button" class="btm" value="0">
+                <input type="button" class="btm" value=".">
+                <input type="button" class="btm" value="DEL">
+                <input type="button" class="btm" style="background-color:
+                        yellow;" value="=">
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
